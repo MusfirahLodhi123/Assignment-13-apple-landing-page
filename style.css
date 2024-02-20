@@ -1,0 +1,131 @@
+.nav-cont{
+    background-color: rgb(68 68 68);
+}
+.n-items{
+    font-size: 12px;
+}
+.page1{
+   position: relative;
+  width: 100%;
+  min-height: 70vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+background-image: url(images/store-card-40-macbook-pro-202310.jpg);
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.page2{
+    background-image: url(images/store-card-40-iphone-15-pro-202309.jpg);
+    background-color: black;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+   
+}
+.page3{
+    background-image: url(images/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+}
+.text2{
+    color: white;
+}
+.text1 h1{
+    font-size: 4vw;
+}
+
+.text1 p{
+    font-size: 2vw;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+}
+.link a{
+    text-decoration: none;
+    color: rgb(31, 150, 247);
+}
+.link a:hover{
+    border-bottom: 1px solid rgb(31, 150, 247) ;
+}
+.page4{
+    display: flex;
+}
+.page4-1, .page4-2{
+    width: 50%;
+}
+.page4-1{
+    background-image: url(images/hero_endframe__dz973mndvu82_large-removebg-preview.png);
+    background-size: 80%;
+}
+.text4-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+   
+}
+.text4-1 h1{
+    font-size: 3vw;
+}
+.text4-1 p{
+    font-size: 1.5vw;
+}
+.page4-2{
+    background-image: url(images/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium.jpg);
+    background-color: black;
+    background-size: cover;
+}
+.text4-2 h1{
+    color: white;
+    font-size: 3vw;
+}
+.text4-2 p{
+    color: white;
+    font-size: 1.5vw;
+}
+.page5{
+    display: flex;
+}
+.page5-1, .page5-2{
+    width: 50%;
+}
+.page5-1{
+    background-image: url(images/promo_ipad__fioegapg12qi_medium.jpg);
+    background-size: cover;
+    
+}
+.text5-1 h1{
+    font-size: 2.5vw;  
+}
+.text5-1 p{
+    font-size: 1vw;  
+}
+.text5-1 a{
+    font-size: 1vw;  
+    line-height: 1px
+}
+.page5-2{
+background-image:url(images/promo_airpods_pro_order__d8xv36p4uwae_medium.jpg) ;
+background-size: 80%;
+background-color: black;
+}
+.text5-2 p{
+    color: white;
+    font-size: 1.5vw;   
+}
+.text5-2 h1{
+  color: white;
+  font-size: 2.5vw; 
+}
